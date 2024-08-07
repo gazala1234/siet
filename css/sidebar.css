@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+/*-------------------------------
+START SIDEBAR 
+-------------------------------- */
+.side-navbar {
+  cursor: pointer;
+  width: 320px;
+  height: 50rem;
+  position: absolute;
+  font-size: 15px;
+  margin-left: -320px;
+  color: #fff;
+  background-color: #1a988b;
+  transition: 0.5s;
+}
+
+.nav .nav-item .nav-link span,
+.nav .nav-item .nav-link i {
+  color:#fff;
+  font-weight: bold;
+  font-size:15px;
+}
+
+.side-navbar .nav-link.active {
+  background-color: #ffffff26; 
+  color: #000;
+}
+
+.my-container {
+  transition: 0.5s;
+}
+
+.my-container .top-navbar {
+  background-color: #1a988b;
+  color: #fff;
+  overflow: hidden;
+}
+
+.my-container .top-navbar .dept-name {
+  flex: 1;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 320px;
+}
+
+#menu-btn {
+  color: #fff;
+  font-size: 30px;
+}
+
+/*-------------------------------
+END SIDEBAR 
+-------------------------------- */
